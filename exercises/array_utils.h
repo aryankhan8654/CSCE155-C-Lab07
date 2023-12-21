@@ -1,3 +1,4 @@
+
 /**
  * A collection of array and 2-D array utility
  * functions.
@@ -20,7 +21,7 @@ void printTable(int **table, int n, int m);
  * This function assumes that the random number
  * generator has already been seeded.
  */
-int * generateRandomArray(int size);
+int *generateRandomArray(int size);
 
 /**
  * Sums the elements in the given array.
@@ -61,7 +62,7 @@ int getIndexOfMax(const int *arr, int size);
 /**
  * TODO: add your own documentation
  */
-int * filterThreshold(const int *arr, int size, int threshold, int *resultSize);
+int *filterThreshold(const int *arr, int size, int threshold, int *resultSize);
 
 /**
  * TODO: add your own documentation
